@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<HTML>
+    <HEAD>
+
+     <meta charset="UTF-8">
+
+        <title> DEVINA WEB</title>
+        <style type="text/css">
+
+        body {
+            background-color: #080f21;
+            background-image: url(logopeq\ mejor\ rec.png);
+            background-repeat: no-repeat;
+            background-image: top left;
+            Left: 0px;
+            top: 0px;
+        }
+        
+    #ul0{
+        list-style-type:none;
+    margin: 0px;
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 30px;
+right: 0px;
+width: 1000px;
+position: relative;
+left:100px;
+top: 0px;
+display: inline;
+
+    }
+        #ulnav {
+    list-style-type:none;
+    margin: 0px;
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 30px;
+    position: relative;
+    left: 180px;
+    right: 50px;
+    width: 75%;
+    border-bottom: #3fb5d9;
+    border-bottom-style: solid;
+    background-image: linear-gradient(to right,  #080f21,  #3fb5d9 );
+    top: 0px;
+   
+	}
+
+
+    li a:link, a:visited {
+    text-decoration:none;
+    color: white; 
+   
+}
+
+    #li1 {
+        display:inline;
+        text-align: center; 
+        font-size: 1.7em;
+        font-family:  Times, serif;
+        width: 0px;
+        padding-right: 40px;
+        padding-left: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: bold;
+		color: white;
+        margin: 0pc;
+     
+    }
+
+    #li0 {
+        display: inline-block;
+        text-align: center; 
+        font-size: 1.3em;
+        font-family:  Times, serif;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        font-weight: bold;
+		color: white;
+        margin: 10PX;
+        
+    }
+
+    #li1:hover{
+        animation: step-end;
+        box-shadow: inset 5px 5px  silver;
+    }
+
+
+
+					/* SLIDER */
+	
+ * {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+.slide{
+position: relative;
+margin: 0 auto;
+
+}
+
+input[name="slider-select-element"] {
+    display: none;
+}
+
+#slider-arrows {
+    margin: -10% auto 0 auto;
+    width: 80%;
+}
+
+#slider-box {
+    -moz-animation: autoSlider 15s infinite linear;
+    -o-animation: autoSlider 15s infinite linear;
+    -webkit-animation: autoSlider 15s infinite linear;
+    animation: autoSlider 15s infinite linear;
+
+    -webkit-transition: all 0.75s ease;
+    -moz-transition: all 0.75s ease;
+    -ms-transition: all 0.75s ease;
+    -o-transition: all 0.75s ease;
+    transition: all 0.75s ease;
+    height: 100%;
+    width: 400%;
+}
+
+
+#slider-container {
+    height: 20%;
+   right: 80px;
+    overflow: hidden;
+    text-align: left;
+    width: 80%;
+	margin-bottom: 0px;
+    margin-top: 100px;
+    top: 0px;
+    left: 180px;
+    margin: 0px;
+    padding: 0px;
+    right: 180px;
+    position: relative;
+   
+	
+}
+
+.element-blue,
+.element-green,
+.element-red
+ {
+    min-height: 400px;
+    max-height: 100%;
+    width: 100%;
+   
+}
+
+.element-blue{
+    height: 350px;
+   
+}
+
+#imgslide{
+	width: 1000px;
+	height: 500px;
+    margin-top: 10px;
+    
+}
+
+.slider-element {
+    float: left;
+    width: 25%;
+	
+}
+
+
+@-moz-keyframes autoSlider {
+    0% {
+        margin-left: 0;
+    }
+
+    30% {
+        margin-left: 0;
+    }
+
+    35% {
+        margin-left: -100%;
+    }
+
+    65% {
+        margin-left: -100%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    95% {
+        margin-left: -200%;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+}
+
+@-webkit-keyframes autoSlider {
+    0% {
+        margin-left: 0;
+    }
+
+    30% {
+        margin-left: 0;
+    }
+
+    35% {
+        margin-left: -100%;
+    }
+
+    65% {
+        margin-left: -100%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    95% {
+        margin-left: -200%;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+}
+
+@keyframes autoSlider {
+    0% {
+        margin-left: 0;
+    }
+
+    30% {
+        margin-left: 0;
+    }
+
+    35% {
+        margin-left: -100%;
+    }
+
+    65% {
+        margin-left: -100%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    95% {
+        margin-left: -200%;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+}
+
+
+.menu{
+  text-align: center;
+  margin: 20px;
+  margin-top: -50px;
+  
+  
+}
+
+.menu li{
+  display: inline-block;
+  text-align: center;
+  
+}
+
+.menu li a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: #374282;
+  padding: 0px;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 100%;
+  top:420px;
+  position: relative;
+  
+}
+
+
+.slider ul{
+  list-style: georgian;
+}
+
+
+                                       /* QUE HACEMOS*/
+
+
+h1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    font-size: 2.7em;
+    left: 50px;
+    border-bottom: #3fb5d9;
+    border-bottom-style: solid;
+    border-bottom: 400%;
+    margin-bottom: 100px;
+}
+
+#option{
+    height: 200px;
+    width: 200px;
+    left: 30px;
+    top: 50px;
+    position: relative;
+    margin: 20px;
+}
+
+.table{
+    margin-top:200px;
+    
+}
+
+
+
+.centered-elements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+}
+
+
+
+#option {
+  position: relative;
+  display: block;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #fff;
+  font-size: 18px;
+  overflow: hidden;
+  transition: all 500ms ease;
+  
+  margin-bottom: 40px;
+  z-index: 0;
+  font-weight: 700;
+  cursor: pointer;
+}
+#option::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  
+  transition: all 500ms ease;
+  z-index: -1;
+}
+
+
+#option:hover {
+  background-color: #20e2d7;
+  box-shadow: 0 0 5px #20e2d7, 0 0 10px #20e2d7, 0 0 10px #20e2d7;
+  
+}
+
+
+/*CONTACTO*/
+
+#contentgrid {
+width: 90px;
+height:20PX;
+margin-top: 0px;
+margin-left: -150px;
+margin-bottom: 0px;
+margin-right: 0px;
+position: absolute;
+top: 0px;
+}
+
+.ch-grid {
+margin-top: 0px;
+margin-left: -15px;
+margin-bottom: 10px;
+margin-right: 0px;
+width: 280px;
+padding: 0%;
+
+}
+
+.ch-item {
+width: 280px;
+height: 20px;
+perspective: 0px;
+
+}
+
+.ch-info{
+width: 280px;
+height: 20px;
+-webkit-transform-style: preserve-3d;
+-moz-transform-style: preserve-3d;
+
+}
+
+.ch-info > div {
+position: absolute;
+width: 280px;
+height: 20px;
+-webkit-transition: all 0.7s linear;
+-moz-transition: all 0.7s linear;
+-webkit-transform-origin: 50% 0%;
+-moz-transform-origin: 50% 0%;
+
+}
+
+.ch-info .ch-info-back {
+-webkit-transform: translate3d(0,0,-100px) rotate3d(1,0,0,90deg);
+-moz-transform: translate3d(0,0,-100px) rotate3d(1,0,0,90deg);
+opacity: 0;
+color: #dbdbdb;
+text-align: center;
+font-family: "Segoe UI", Verdana, Tahoma, Sans-serif;
+font-size: 1.1em;
+
+}
+
+.ch-info-back{
+    margin: 0px;
+    margin-left: 0px;
+    padding: 0px;
+
+}
+
+
+.ch-item:hover .ch-info-front {
+-webkit-transform: translate3d(0,200px,0) rotate3d(1,0,0,-90deg);
+-moz-transform: translate3d(0,200px,0) rotate3d(1,0,0,-90deg);
+opacity: 0;
+
+
+}
+
+.ch-item:hover .ch-info-back {
+-webkit-transform: rotate3d(1,0,0,0deg);
+-moz-transform: rotate3d(1,0,0,0deg);
+opacity: 1;
+
+}
+
+#ch-grid0 {
+margin-top: 0px;
+margin-left: 15px;
+margin-bottom: 10px;
+margin-right: 0px;
+width: 50px;
+padding: 0%;
+
+}
+
+#ch-item0 {
+width: 50px;
+height: 20px;
+perspective: 0px;
+
+}
+
+#ch-info0{
+width: 50px;
+height: 20px;
+-webkit-transform-style: preserve-3d;
+-moz-transform-style: preserve-3d;
+
+}
+
+#ch-info0 > div {
+position: absolute;
+width: 50px;
+height: 20px;
+-webkit-transition: all 0.7s linear;
+-moz-transition: all 0.7s linear;
+-webkit-transform-origin: 50% 0%;
+-moz-transform-origin: 50% 0%;
+
+}
+
+#ch-info0 #ch-info-back0 {
+-webkit-transform: translate3d(0,0,-100px) rotate3d(1,0,0,90deg);
+-moz-transform: translate3d(0,0,-100px) rotate3d(1,0,0,90deg);
+opacity: 0;
+color: #dbdbdb;
+text-align: center;
+font-family: "Segoe UI", Verdana, Tahoma, Sans-serif;
+font-size: 1.1em;
+
+}
+
+#ch-info-back0{
+    margin: 0px;
+    margin-left: 0px;
+    padding: 0px;
+
+}
+
+
+#ch-item0:hover #ch-info-front0 {
+-webkit-transform: translate3d(0,200px,0) rotate3d(1,0,0,-90deg);
+-moz-transform: translate3d(0,200px,0) rotate3d(1,0,0,-90deg);
+opacity: 0;
+
+
+}
+
+#ch-item0:hover #ch-info-back0 {
+-webkit-transform: rotate3d(1,0,0,0deg);
+-moz-transform: rotate3d(1,0,0,0deg);
+opacity: 1;
+
+}
+
+#tablepr{
+    margin: 50px;
+    margin-left: 100px;
+}
+
+#thpr{
+   padding-right: 100px;
+    margin-left: 100px;
+}
+
+        </style>
+
+    </HEAD>
+
+    <BODY>
+        
+        <ul id="ul0">
+            
+            <div id="contentgrid"></div>
+           
+            <li id="li0">
+                <div class="ch-grid">
+                      
+                    <div class="ch-item">            
+                        <div class="ch-info">
+                            <div class="ch-info-front ch-img-1"><a href="tel: +34 963 29 51 51"> 📲 Llámanos: +34 963 29 51 51</a></div>
+                            <div class="ch-info-back">
+                                <a href="tel: +34 963 29 51 51"> LLAMAR </a> 
+           
+                
+                            </div>   
+                        </div>
+                    </div>
+            </li>
+
+       
+            <li id="li0">
+                <div class="ch-grid">
+                
+                    <div class="ch-item">            
+                        <div class="ch-info">
+                            <div class="ch-info-front ch-img-1"><a href="https://api.whatsapp.com/send?phone=34693528074 "> <img src="yyy.png"> Whatsapp: 693 528 074 </a></div>
+                            <div class="ch-info-back">
+                                <a href="https://api.whatsapp.com/send?phone=34693528074 "> WHATSAPPEA </a> 
+       
+                            </div>   
+                        </div>
+                    </div>
+            </li>
+
+  
+            <li id="li0">
+        
+                <div class="ch-grid" id="ch-grid0">
+          
+                    <div class="ch-item" id="ch-item0">            
+                    <div class="ch-info" id="ch-info0">
+                        <div class="ch-info-front ch-img-1"><a href="https://www.facebook.com/people/Devina-Web/100066147094513/ " target="_blank"> <img src="face icon.png" height="30px" width="30px">  </a></div>
+                        <div class="ch-info-back" id="ch-info-back0">
+                            <a href="https://www.facebook.com/people/Devina-Web/100066147094513/"target="_blank"><img src="thumb icon.png" height="30px" width="30px">  </a> 
+   
+                        </div>   
+                    </div>
+                </div>
+
+            </li>
+
+
+            <li id="li0">  
+                <div class="ch-grid" id="ch-grid0">
+
+                    <div class="ch-item" id="ch-item0"> 
+                         
+                        <div class="ch-info" id="ch-info0">
+                            <div class="ch-info-front ch-img-1"><a href="https://www.instagram.com/devinaweb/?hl=es" target="_blank"> <img src="insta icon.png" height="30px" width="30px"" >  </a></div>
+                            <div class="ch-info-back" id="ch-info-back0">
+                        <a href="https://www.instagram.com/devinaweb/?hl=es" target="_blank"><img src="like icon.png" height="30px" width="30px">  </a> 
+
+                        </div>   
+                    </div>
+                </div>
+            </li>
+</div>
+    
+           </ul>
+
+        <ul id="ulnav">
+          
+            <li id="li1"><a href="https://github.com/joanby/HTML5-Projects/blob/master/Tema%206/03-layout2.html"> Home </a></li>
+            <li id="li1"><a href="#quehacemos"> Servicios </a></li>
+            <li id="li1"><a href="#nuestracalidad"> Calidad </a></li>
+            <li id="li1"><a href="https://github.com/joanby/HTML5-Projects/blob/master/Tema%206/03-layout2.html"> Presupuesto </a></li>
+                     
+           </li>
+           
+        </ul>
+        
+     
+
+        <div id="page">
+			<section>
+											
+				<div id="slider-container">
+					<div id="slider-box">
+
+						<div class="slider-element">
+							<article class="element-red" id="slide1">
+								<img id="imgslide" src="bienvenida.png"/>								
+							</article>
+						</div>
+						<div class="slider-element">
+							<article  id="slide2" class="element-green">
+								<img id="imgslide" src="promo11.png"/>							
+							</article>
+						</div>
+					
+
+
+                        <div class="slider-element">
+							<article class="element-blue" id="slide3">
+							<a href="Noticias 2.html">	<img id="imgslide" src="promo11.png"/>	</a>							
+							</article>
+						</div>
+
+					</div>
+				</div>
+											
+			</section>            
+		</div class="table">
+        
+        
+       <a name="quehacemos"/> <h1> ¿Qué hacemos?  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </h1>
+        <br>
+        <br>
+        <br>
+        <div>
+        <table>
+            <tr>
+        <th> <img id="option" src="opcion 1.png"> </th>
+        <th><img id="option" src="opcion 2.png"></th>
+        <th><img id="option" src="opcion 3.png"></th>
+        <th><img id="option" src="opcion 4.png"></th>
+        <th><img id="option" src="opcion 5.png"></th>
+</tr>
+
+
+    </table>
+</div>
+
+
+<div class="ch-item">            
+    <div class="ch-info">
+        <div class="ch-info-front ch-img-1" style="background-image: url('http://placehold.it/');"></div>
+        <div class="ch-info-back">
+          <br>Content
+        </div>   
+    </div>
+</div>
+</td>
+
+<a name="nuestracalidad"/> <h1> ¡NUESTRA CALIDAD! </h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <table id="tablepr" >
+        <tr>
+        <th id="thpr"> <img src="At pers1.png" height="150px" width="500px" > </th> &nbsp &nbsp
+        <th id="thpr"> <img src="vent.png" height="150px" width="500px" > </th>
+        </tr>
+
+        <tr>
+            <th id="thpr"> <img src="conf.png"height="150px" width="500px" > </th>
+            <th id="thpr"> <img src="transp.png"height="150px" width="500px" > </th>
+
+
+        </tr>
+
+    </table>
+<br>
+<br>
+<br>
+
+<h1> Pide tu presupuesto </h1>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<form action="#" method="post">
+            
+    <div>
+       <input type="text" name="username" id="username" placeholder="NOMBREE">
+       <input type="text" name="lastname" id="lastname" placeholder="APELLIDO">
+       <br>
+       <br>
+       <input type="radio" value="Enviar" name="actión"> Enviar
+       <input type="radio" value="Recibir" name="action"> Recibir
+       <br>
+       <input type="radio" value="Otro asunto" name="action"> Otro asunto
+       <br>
+       <br>
+      
+    </div>
+       <input type="tel" name="telephone" id="telephone" placeholder="telefono móvil">
+       <input type="email" name="email" id="email" placeholder="Correo electrónico">
+       <br>
+       <br>
+
+
+       <p><textarea name="comentario" rows="5" cols="30">Deje aquí su duda y contactaremos con usted! </textarea></p>
+
+       <input type="submit" value="Enviar">
+       <input type="reset" value="Borrar todo">
+
+       </form>
+
+
+
+
+    </BODY>
+
+</HTML>
